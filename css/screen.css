@@ -1,0 +1,560 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 3, ../sass/all-fonts.scss */
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 9, ../sass/all-fonts.scss */
+.font-mars-header {
+  font: 700 24px/30px Montserrat;
+  color: #000000;
+}
+
+/* line 14, ../sass/all-fonts.scss */
+.phone-font {
+  font: 400 14px/30px Montserrat;
+  color: #92a1a5;
+}
+
+/* line 19, ../sass/all-fonts.scss */
+.white-bold {
+  font: 700 16px/30px Montserrat;
+  color: #ffffff;
+}
+
+/* line 24, ../sass/all-fonts.scss */
+.text-features {
+  font: 700 48px/60px Montserrat;
+  color: #000000;
+  text-align: center;
+}
+
+/* line 30, ../sass/all-fonts.scss */
+.btn-text {
+  font: 700 13px/60px Montserrat;
+  color: #ffffff;
+}
+
+/* line 1, ../sass/body-style.scss */
+body {
+  font-family: Montserrat;
+}
+
+/* line 1, ../sass/main-section.scss */
+.main-section {
+  position: relative;
+  height: 100vh;
+}
+
+/* line 6, ../sass/main-section.scss */
+.container {
+  width: 80vw;
+}
+
+/* line 1, ../sass/header.scss */
+header {
+  position: absolute;
+  margin-top: 3vh;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 1, ../sass/main-grey-section.scss */
+.main-grey-section {
+  background-color: #eff2f6;
+  height: 100vh;
+}
+
+/* line 1, ../sass/main-red-section.scss */
+.main-red-section {
+  background-color: #ff343d;
+  height: 100vh;
+}
+
+/* line 1, ../sass/carousel-custom.scss */
+.carousel-custom {
+  margin-top: 40vh;
+  margin-left: 12vw;
+}
+/* line 5, ../sass/carousel-custom.scss */
+.carousel-custom .carousel-indicators {
+  -moz-box-pack: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  list-style: outside none none;
+  margin: 0;
+  padding-left: 0;
+  position: relative;
+  right: 0;
+  z-index: 5;
+}
+/* line 19, ../sass/carousel-custom.scss */
+.carousel-custom .carousel-indicators li {
+  background-color: #e1e1e1;
+  border: medium none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 7px;
+  margin: 5px;
+  text-indent: -999px;
+  width: 7px;
+  flex: 0 0 auto;
+}
+/* line 31, ../sass/carousel-custom.scss */
+.carousel-custom .carousel-indicators .active {
+  background-color: #ff343d;
+  height: 7px;
+  margin: 5px;
+  width: 7px;
+}
+/* line 38, ../sass/carousel-custom.scss */
+.carousel-custom h3 {
+  font: 700 60px/30px Montserrat;
+  margin-top: 4vh;
+}
+/* line 43, ../sass/carousel-custom.scss */
+.carousel-custom p {
+  color: #92a1a5;
+  font: 400 14px/30px Montserrat;
+  max-width: 392px;
+  margin-top: 3vh;
+}
+
+@media screen and (min-width: 700px) {
+  /* line 53, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  /* line 59, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* line 65, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 71, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 20px;
+  }
+}
+/* line 1, ../sass/schroll-text.scss */
+.schroll-text {
+  font: 700 18px/30px Montserrat;
+  color: #000000;
+  width: 130px;
+  position: absolute;
+  left: 8vw;
+  bottom: 10vh;
+  t-moz-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П Firefox */
+  -ms-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П IE */
+  -webkit-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П Opera */
+  transform: rotate(-90deg);
+}
+
+@media screen and (min-width: 700px) {
+  /* line 17, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  /* line 23, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* line 29, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 10px;
+    transform: rotate(0deg);
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 36, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 8px;
+    transform: rotate(0deg);
+  }
+}
+/* line 1, ../sass/white-circle-copter.scss */
+.white-circle-copter {
+  background-color: #ffffff;
+  position: absolute;
+  left: -325px;
+  top: 17%;
+  border-radius: 50%;
+  padding-top: 7%;
+}
+/* line 9, ../sass/white-circle-copter.scss */
+.white-circle-copter .img-fluid {
+  max-width: 150%;
+  margin-left: -25%;
+}
+
+@media screen and (min-width: 1500px) {
+  /* line 17, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 650px;
+    width: 650px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+  /* line 24, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 400px;
+    width: 400px;
+    left: -200px;
+    top: 35%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+  /* line 33, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 300px;
+    width: 300px;
+    left: -150px;
+    top: 35%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 999px) {
+  /* line 42, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 200px;
+    width: 200px;
+    left: 30px;
+    top: 35%;
+  }
+}
+/* line 6, ../sass/copter-section.scss */
+.tap-to-fly {
+  height: 60vh;
+  background-image: url("../images/photo.png");
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  font: 400 14px/30px Montserrat;
+  padding: 0;
+}
+
+/* line 16, ../sass/copter-section.scss */
+.fly-higher {
+  padding: 0;
+  height: 60vh;
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+}
+
+/* line 23, ../sass/copter-section.scss */
+.text-copter {
+  position: absolute;
+  right: 15%;
+  bottom: 38%;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 36, ../sass/copter-section.scss */
+  .tap-to-fly h3 {
+    font: 700 60px/60px Montserrat;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1399px) {
+  /* line 42, ../sass/copter-section.scss */
+  .tap-to-fly h3 {
+    font: 500 40px/40px Montserrat;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 899px) {
+  /* line 50, ../sass/copter-section.scss */
+  .tap-to-fly h3 {
+    font: 400 30px/30px Montserrat;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 56, ../sass/copter-section.scss */
+  .tap-to-fly h3 {
+    font: 200 20px/20px Montserrat;
+  }
+}
+/* line 1, ../sass/section-features.scss */
+.section-features {
+  margin: 5% 0 5% 0;
+}
+/* line 3, ../sass/section-features.scss */
+.section-features .container {
+  margin-top: 5%;
+}
+/* line 6, ../sass/section-features.scss */
+.section-features p {
+  text-align: center;
+  margin-top: 10%;
+  font: 400 30px/60px Montserrat;
+  color: #000000;
+}
+/* line 12, ../sass/section-features.scss */
+.section-features img {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 24, ../sass/section-features.scss */
+  .section-features p {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+  /* line 30, ../sass/section-features.scss */
+  .section-features p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  /* line 36, ../sass/section-features.scss */
+  .section-features p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 42, ../sass/section-features.scss */
+  .section-features p {
+    font-size: 15px;
+  }
+}
+/* line 1, ../sass/vision.scss */
+.vision {
+  position: relative;
+}
+/* line 3, ../sass/vision.scss */
+.vision .vision-img {
+  min-height: 70vh;
+  background-image: url("../images/image-note.png");
+  background-repeat: no-repeat;
+}
+/* line 8, ../sass/vision.scss */
+.vision .vision-block {
+  min-height: 70vh;
+  background-color: #232323;
+}
+/* line 12, ../sass/vision.scss */
+.vision .vision-text {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+/* line 16, ../sass/vision.scss */
+.vision .vision-text h3 {
+  color: #ffffff;
+}
+/* line 18, ../sass/vision.scss */
+.vision .vision-text h3 span {
+  color: #ff343d;
+}
+/* line 23, ../sass/vision.scss */
+.vision .vision-text .btn {
+  width: 182px;
+  height: auto;
+  border-radius: 28px;
+  border: 2px solid #3b3b3b;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 35, ../sass/vision.scss */
+  .vision-text h3 {
+    font-size: 92px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 41, ../sass/vision.scss */
+  .vision-text h3 {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 47, ../sass/vision.scss */
+  .vision-text h3 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 53, ../sass/vision.scss */
+  .vision-text h3 {
+    font-size: 30px;
+  }
+}
+/* line 1, ../sass/flying.scss */
+.flying {
+  min-height: 40vh;
+}
+/* line 6, ../sass/flying.scss */
+.flying .flying-text h3 {
+  color: #232323;
+  padding: 15% 0 0 10%;
+}
+/* line 9, ../sass/flying.scss */
+.flying .flying-text h3 span {
+  color: #ff343d;
+}
+/* line 13, ../sass/flying.scss */
+.flying .flying-text .btn {
+  width: 182px;
+  height: auto;
+  margin: 10%;
+  border-radius: 28px;
+  border: 2px solid #eff2f6;
+  padding: 0;
+  color: #000000;
+  font: 700 13px/60px Montserrat;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 28, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 92px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 34, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 40, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 46, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 30px;
+  }
+}
+/* line 1, ../sass/journey.scss */
+.journey {
+  background-image: url("../images/journey.png");
+  min-height: 120vh;
+}
+/* line 4, ../sass/journey.scss */
+.journey .journey-box {
+  padding-top: 70vh;
+}
+/* line 6, ../sass/journey.scss */
+.journey .journey-box .btn {
+  width: 182px;
+  height: auto;
+  margin: 3%;
+  border-radius: 28px;
+  border: 2px solid #eff2f6;
+  background-color: #ffffff;
+  padding: 0;
+  color: #318f76;
+  font: 700 13px/60px Montserrat;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 25, ../sass/journey.scss */
+  .big-white {
+    font: 700 92px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+  /* line 32, ../sass/journey.scss */
+  .big-white {
+    font: 700 70px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  /* line 39, ../sass/journey.scss */
+  .big-white {
+    font: 700 40px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 46, ../sass/journey.scss */
+  .big-white {
+    font: 700 25px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+/* line 1, ../sass/copyright-block.scss */
+.copyright {
+  min-height: 30vh;
+}
+/* line 4, ../sass/copyright-block.scss */
+.copyright .copyright-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+  z-index: 2;
+}
+/* line 11, ../sass/copyright-block.scss */
+.copyright .copyright-font {
+  font: 400 14px/30px Montserrat;
+  color: #92a1a5;
+}
+
+/* line 18, ../sass/copyright-block.scss */
+.fone-text {
+  text-shadow: 8px 14px 95px rgba(0, 0, 0, 0.05);
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 203px;
+  font-weight: 700;
+  line-height: 101px;
+  text-transform: uppercase;
+  margin-top: 30vh;
+  position: relative;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 32, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 203px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 38, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 150px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 44, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 50, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 30px;
+  }
+}

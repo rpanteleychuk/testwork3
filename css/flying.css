@@ -1,0 +1,49 @@
+/* line 1, ../sass/flying.scss */
+.flying {
+  min-height: 40vh;
+}
+/* line 6, ../sass/flying.scss */
+.flying .flying-text h3 {
+  color: #232323;
+  padding: 15% 0 0 10%;
+}
+/* line 9, ../sass/flying.scss */
+.flying .flying-text h3 span {
+  color: #ff343d;
+}
+/* line 13, ../sass/flying.scss */
+.flying .flying-text .btn {
+  width: 182px;
+  height: auto;
+  margin: 10%;
+  border-radius: 28px;
+  border: 2px solid #eff2f6;
+  padding: 0;
+  color: #000000;
+  font: 700 13px/60px Montserrat;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 28, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 92px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 34, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 40, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 46, ../sass/flying.scss */
+  .flying-text h3 {
+    font-size: 30px;
+  }
+}

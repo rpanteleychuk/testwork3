@@ -1,0 +1,50 @@
+.journey {
+  background-image: url("../images/journey.png");
+  min-height: 120vh;
+  .journey-box {
+    padding-top: 70vh;
+    .btn {
+      width: 182px;
+      height: auto;
+      margin: 3%;
+      border-radius: 28px;
+      border: 2px solid #eff2f6;
+      background-color: #ffffff;
+      padding: 0;
+      color: #318f76;
+      font: 700 13px/60px Montserrat;
+    }
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+  .big-white {
+    font: 700 92px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+  .big-white {
+    font: 700 70px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .big-white {
+    font: 700 40px/102px Montserrat;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .big-white {
+    font: 700 25px/102px Montserrat;
+    color: #ffffff;
+  }
+}

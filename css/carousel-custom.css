@@ -1,0 +1,75 @@
+/* line 1, ../sass/carousel-custom.scss */
+.carousel-custom {
+  margin-top: 40vh;
+  margin-left: 12vw;
+}
+/* line 5, ../sass/carousel-custom.scss */
+.carousel-custom .carousel-indicators {
+  -moz-box-pack: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  list-style: outside none none;
+  margin: 0;
+  padding-left: 0;
+  position: relative;
+  right: 0;
+  z-index: 5;
+}
+/* line 19, ../sass/carousel-custom.scss */
+.carousel-custom .carousel-indicators li {
+  background-color: #e1e1e1;
+  border: medium none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  height: 7px;
+  margin: 5px;
+  text-indent: -999px;
+  width: 7px;
+  flex: 0 0 auto;
+}
+/* line 31, ../sass/carousel-custom.scss */
+.carousel-custom .carousel-indicators .active {
+  background-color: #ff343d;
+  height: 7px;
+  margin: 5px;
+  width: 7px;
+}
+/* line 38, ../sass/carousel-custom.scss */
+.carousel-custom h3 {
+  font: 700 60px/30px Montserrat;
+  margin-top: 4vh;
+}
+/* line 43, ../sass/carousel-custom.scss */
+.carousel-custom p {
+  color: #92a1a5;
+  font: 400 14px/30px Montserrat;
+  max-width: 392px;
+  margin-top: 3vh;
+}
+
+@media screen and (min-width: 700px) {
+  /* line 53, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  /* line 59, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* line 65, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 71, ../sass/carousel-custom.scss */
+  .connect h3 {
+    font-size: 20px;
+  }
+}

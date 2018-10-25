@@ -1,0 +1,40 @@
+.schroll-text {
+  font: 700 18px/30px Montserrat;
+  color: #000000;
+  width: 130px;
+ position: absolute;
+  left: 8vw;
+  bottom: 10vh;
+  t-moz-transform: rotate(-90deg); /* Для Firefox */
+  -ms-transform: rotate(-90deg); /* Для IE */
+  -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg); /* Для Opera */
+  transform: rotate(-90deg);
+}
+
+
+@media screen and (min-width: 700px) {
+  .schroll-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .schroll-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  .schroll-text {
+    font-size: 10px;
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .schroll-text {
+    font-size: 8px;
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,57 @@
+.copyright {
+  min-height: 30vh;
+
+  .copyright-block {
+position: absolute;
+    left: 0;
+    right: 0;
+    top: 5%;
+    z-index: 2;
+  }
+  .copyright-font {
+    font: 400 14px/30px Montserrat;
+    color: #92a1a5;
+
+  }
+}
+
+.fone-text {
+  text-shadow: 8px 14px 95px rgba(0, 0, 0, 0.05);
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 203px;
+  font-weight: 700;
+  line-height: 101px;
+  text-transform: uppercase;
+  margin-top: 30vh;
+  position: relative;
+}
+
+
+@media screen and (min-width: 1400px) {
+  .fone-text {
+    font-size: 203px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  .fone-text {
+    font-size: 150px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  .fone-text {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .fone-text {
+    font-size: 30px;
+  }
+}
+
+
+
+

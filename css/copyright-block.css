@@ -1,0 +1,55 @@
+/* line 1, ../sass/copyright-block.scss */
+.copyright {
+  min-height: 30vh;
+}
+/* line 4, ../sass/copyright-block.scss */
+.copyright .copyright-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+  z-index: 2;
+}
+/* line 11, ../sass/copyright-block.scss */
+.copyright .copyright-font {
+  font: 400 14px/30px Montserrat;
+  color: #92a1a5;
+}
+
+/* line 18, ../sass/copyright-block.scss */
+.fone-text {
+  text-shadow: 8px 14px 95px rgba(0, 0, 0, 0.05);
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 203px;
+  font-weight: 700;
+  line-height: 101px;
+  text-transform: uppercase;
+  margin-top: 30vh;
+  position: relative;
+}
+
+@media screen and (min-width: 1400px) {
+  /* line 32, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 203px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1399px) {
+  /* line 38, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 150px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1099px) {
+  /* line 44, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 50, ../sass/copyright-block.scss */
+  .fone-text {
+    font-size: 30px;
+  }
+}

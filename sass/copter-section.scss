@@ -1,0 +1,59 @@
+.copter-section {
+
+
+}
+
+.tap-to-fly {
+  height: 60vh;
+  background-image: url("../images/photo.png");
+  background-color: #f8f9fb;
+  background-repeat: no-repeat;
+  font: 400 14px/30px Montserrat;
+padding: 0;
+
+}
+
+.fly-higher {
+padding: 0;
+  height: 60vh;
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+}
+
+.text-copter {
+  position: absolute;
+  right: 15%;
+  bottom: 38%;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+  .tap-to-fly h3 {
+    font: 700 60px/60px Montserrat;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1399px) {
+  .tap-to-fly h3 {
+
+    font: 500 40px/40px Montserrat;
+
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 899px) {
+  .tap-to-fly h3 {
+    font: 400 30px/30px Montserrat;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .tap-to-fly h3 {
+    font: 200 20px/20px Montserrat;
+  }
+}

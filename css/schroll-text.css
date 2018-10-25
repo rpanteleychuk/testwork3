@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* line 1, ../sass/schroll-text.scss */
+.schroll-text {
+  font: 700 18px/30px Montserrat;
+  color: #000000;
+  width: 130px;
+  position: absolute;
+  left: 8vw;
+  bottom: 10vh;
+  t-moz-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П Firefox */
+  -ms-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П IE */
+  -webkit-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П Safari, Chrome, iOS */
+  -o-transform: rotate(-90deg);
+  /* ╨Ф╨╗╤П Opera */
+  transform: rotate(-90deg);
+}
+
+@media screen and (min-width: 700px) {
+  /* line 17, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  /* line 23, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  /* line 29, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 10px;
+    transform: rotate(0deg);
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /* line 36, ../sass/schroll-text.scss */
+  .schroll-text {
+    font-size: 8px;
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,10 @@
+/* line 1, ../sass/main-section.scss */
+.main-section {
+  position: relative;
+  height: 100vh;
+}
+
+/* line 6, ../sass/main-section.scss */
+.container {
+  width: 80vw;
+}

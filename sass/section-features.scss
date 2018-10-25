@@ -1,0 +1,45 @@
+.section-features {
+margin: 5% 0 5% 0;
+  .container {
+    margin-top: 5%;
+  }
+  p {
+    text-align: center;
+    margin-top: 10%;
+    font: 400 30px/60px Montserrat;
+    color: #000000;
+  }
+  img {
+    display: block;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1400px) {
+  .section-features p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+  .section-features p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .section-features p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  .section-features p {
+    font-size: 15px;
+  }
+}

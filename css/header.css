@@ -1,0 +1,9 @@
+/* line 1, ../sass/header.scss */
+header {
+  position: absolute;
+  margin-top: 3vh;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

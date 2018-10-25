@@ -1,0 +1,21 @@
+{
+  "name": "jq-lesson-part2",
+  "homepage": "https://github.com/rpanteleychuk/jq-lesson-part2",
+  "authors": [
+    "prosst <r.panteleychuk@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  }
+}

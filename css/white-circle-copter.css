@@ -1,0 +1,49 @@
+/* line 1, ../sass/white-circle-copter.scss */
+.white-circle-copter {
+  background-color: #ffffff;
+  position: absolute;
+  left: -325px;
+  top: 17%;
+  border-radius: 50%;
+  padding-top: 7%;
+}
+/* line 9, ../sass/white-circle-copter.scss */
+.white-circle-copter .img-fluid {
+  max-width: 150%;
+  margin-left: -25%;
+}
+
+@media screen and (min-width: 1500px) {
+  /* line 17, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 650px;
+    width: 650px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+  /* line 24, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 400px;
+    width: 400px;
+    left: -200px;
+    top: 35%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+  /* line 33, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 300px;
+    width: 300px;
+    left: -150px;
+    top: 35%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 999px) {
+  /* line 42, ../sass/white-circle-copter.scss */
+  .white-circle-copter {
+    height: 200px;
+    width: 200px;
+    left: 30px;
+    top: 35%;
+  }
+}
